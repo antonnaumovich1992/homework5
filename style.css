@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+form[name = "converter"] {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: auto;
+    grid-column-gap: 40px;
+}
+
+form .form-item {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.form-item label {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    min-width: 50px;
+    text-align: right;
+}
+
+.form-item input,
+.form-item select {
+    flex: 1 1 auto;
+}
+
+form .form-item:last-child {
+    margin-bottom: 0;
+    padding-left: 60px;
+}
+/* 
+form button[type = "submit"]{
+    margin: auto;
+} */
+
+form .result output {
+    font-size: 2.5em;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BYN converter</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+      <form name = "converter">
+        <div class = "controls">
+        <div class = "form-item">
+          <label for = "bynValue">BYN</label>
+          <input for = "inputEl" type = "number" min = "0" step = "0.01" required id = "bunValue" name = "bynValue">
+        </div>
+        <div class = "form-item">
+          <label for = "selectedCurrency">to</label>
+          <select id = "selectedCurrency" name = "selectedCurrency" >
+            <!-- <option value="" selected></option> -->
+          </select>
+          
+        </div>
+       
+
+
+        <div class = "result">
+          <output name="result"></output>
+        </div>
+      </form>
+
+    </body>
+</html>
